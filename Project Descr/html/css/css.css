@@ -1,0 +1,23 @@
+body{ font-family: "Courier"; background-image: url(back.jpg); background-size: cover;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h1              { color: white; font-size: 72px; text-align: center; }
+li, a, ol , ul  { color: white; font-size: 32px; text-align: center;}
+img.flask       { height: 40%; width: 40%;}
+h2, h3          { color: white}
+h3              {text-align: center;}
+h2              {text-align: right;}
